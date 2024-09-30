@@ -30,3 +30,4 @@ C:\Users\sidun\EmpresasCulturales\obj\Debug\net8.0\refint\EmpresasCulturales.dll
 C:\Users\sidun\EmpresasCulturales\obj\Debug\net8.0\EmpresasCulturales.pdb
 C:\Users\sidun\EmpresasCulturales\obj\Debug\net8.0\EmpresasCulturales.genruntimeconfig.cache
 C:\Users\sidun\EmpresasCulturales\obj\Debug\net8.0\ref\EmpresasCulturales.dll
+C:\Users\sidun\EmpresasCulturales\obj\Debug\net8.0\EmpresasCulturales.sourcelink.json

@@ -622,6 +622,10 @@ video {
   visibility: collapse;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -667,6 +671,10 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -700,6 +708,10 @@ video {
 
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {

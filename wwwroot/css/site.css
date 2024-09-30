@@ -23,10 +23,14 @@ body {
 img {
   width: 256px; /* Tamaño estándar */
   height: auto;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
+header {
+  background-color: #E2725B;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
