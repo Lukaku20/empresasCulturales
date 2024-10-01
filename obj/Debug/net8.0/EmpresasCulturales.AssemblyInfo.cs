@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmpresasCulturales")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30ff4d233057c7013b717d11a8c1572e8296e155")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0bd4ba0bffc673ba931dbc65b77b749fb98657c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmpresasCulturales")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmpresasCulturales")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
