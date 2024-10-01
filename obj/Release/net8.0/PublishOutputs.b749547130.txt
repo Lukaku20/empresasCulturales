@@ -1,0 +1,9 @@
+C:\Users\sidun\EmpresasCulturales\bin\Release\net8.0\publish\EmpresasCulturales.exe
+C:\Users\sidun\EmpresasCulturales\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\sidun\EmpresasCulturales\bin\Release\net8.0\publish\appsettings.json
+C:\Users\sidun\EmpresasCulturales\bin\Release\net8.0\publish\package-lock.json
+C:\Users\sidun\EmpresasCulturales\bin\Release\net8.0\publish\package.json
+C:\Users\sidun\EmpresasCulturales\bin\Release\net8.0\publish\EmpresasCulturales.dll
+C:\Users\sidun\EmpresasCulturales\bin\Release\net8.0\publish\EmpresasCulturales.deps.json
+C:\Users\sidun\EmpresasCulturales\bin\Release\net8.0\publish\EmpresasCulturales.runtimeconfig.json
+C:\Users\sidun\EmpresasCulturales\bin\Release\net8.0\publish\EmpresasCulturales.pdb
