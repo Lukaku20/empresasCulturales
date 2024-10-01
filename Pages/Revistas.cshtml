@@ -2,93 +2,97 @@
 @model EmpresasCulturales.Pages.Pages_Revistas
 
 <div class="bg-gray-100 p-10">
-    
-    
-    <div class="mt-8">
+    <div class="revistas">
         <!-- Revista Caras y Caretas -->
-<div class="mb-8 grid grid-cols-2 gap-4">
-    
-    <!-- Primera columna: Título de la revista -->
-    <div class="text-left">
-        <h2 class="text-2xl font-bold">REVISTA CARAS Y CARETAS 
-        “Semanario festivo, literario, artístico y de intelectuales"</h2>
-    </div>
+        <div class="revista">
+            <!-- Primera columna: Título de la revista -->
+            <div class="w-1/2 text-left pr-4">
+                <h2 class="text-2xl font-bold text-blue-700">REVISTA CARAS Y CARETAS 
+                “Semanario festivo, literario, artístico y de intelectuales"</h2>
+                <p class="mt-2 text-gray-700">
+                    <ul class="list-disc pl-4">
+                        <li><strong>Director:</strong> Eustaquio Pellicer.</li> 
+                        <li><strong>Revista editada entre:</strong> 1898-1939.</li> 
+                        <li><strong>Breve reseña:</strong> La revista se destacó por sus caricaturas y sátiras políticas, siendo un referente en este estilo literario. Entre los caricaturistas más reconocidos se encuentran Manuel Mayol y José María Cao Luaces. En cuanto a su diseño, presentaba dos portadas: una principal, a color, y otra en blanco y negro en el interior. Las ilustraciones y la estructura miscelánea fueron elementos clave en su éxito. Gracias a su bajo costo, la publicación alcanzó un público amplio. A lo largo de los años, se incrementó el uso de publicidades y la fotografía adquirió un papel relevante en sus páginas.</li>
+                    </ul>
+                </p>
+            </div>
 
-    <!-- Segunda columna: Descripción y detalles -->
-    <div class="text-left">
-        <p class="mt-2 text-gray-700">
-            <ul>
-                <li><strong>Director:</strong> Eustaquio Pellicer.</li> 
-                <li><strong>Revista editada entre:</strong> 1898-1939.</li> 
-                <li><strong>Breve reseña:</strong></li>
-            </ul>
-            La revista se destacó por sus caricaturas y sátiras políticas, siendo un referente en este estilo literario. Entre los caricaturistas más reconocidos se encuentran Manuel Mayol y José María Cao Luaces. En cuanto a su diseño, presentaba dos portadas: una principal, a color, y otra en blanco y negro en el interior. Las ilustraciones y la estructura miscelánea fueron elementos clave en su éxito. Gracias a su bajo costo, la publicación alcanzó un público amplio. A lo largo de los años, se incrementó el uso de publicidades y la fotografía adquirió un papel relevante en sus páginas.
-        </p>
-    </div>
-
-    <!-- Galería de imágenes en ambas columnas -->
-    <div class="col-span-2 mt-4 grid grid-cols-3 gap-4">
-        <img src="~/images/contra_carasycar.jpg" class="w-64 h-auto mx-auto">
-        <img src="~/images/cara_carasycaretas.jpg" class="w-64 h-auto mx-auto">
-        
-    </div>
-</div>
-
-<!-- Revista de derecho  historia y letras  -->
-        <div class="mb-8">
-            <h2 class="text-2xl font-bold">REVISTA DE DERECHO, HISTORIA Y LETRAS
-</h2>
-            <p class="mt-2 text-gray-700">
-
-            <li> Director: Estanislao S. Zeballos</li> 
-            <li> Revista editada entre: 1989- 1923</li> 
-            <li> Breve reseña:</li>
-        Revista especializada en los campos de Historia, Derecho y Literatura, dirigida a un público intelectual. En torno al Centenario, muestra interés por recuperar la identidad nacional y resaltar la impronta fuertemente revolucionaria y hasta separatista que circulaba en escritos entorno a 1810.
-
-            </p>
-            <!-- Galería de imágenes -->
-            <div class="mt-4 grid grid-cols-3 gap-4">
-                <img src="~/images/tapa_revista_inst.jpg" class="w-64 h-auto mx-auto">
-                <img src="~/images/contra_rev_inst.jpg" class="w-64 h-auto mx-auto">
+            <!-- Segunda columna: Galería de imágenes en flex -->
+            <div class="w-1/2 flex justify-evenly">
+                <div class="card w-64 bg-blue-100 shadow-md">
+                    <img src="~/images/contra_carasycar.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                </div>
+                <div class="card w-64 bg-blue-100 shadow-md">
+                    <img src="~/images/cara_carasycaretas.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                </div>
             </div>
         </div>
-        <!-- Similar estructura para las otras tres revistas -->
-        <!-- Revista Argentina de ciuencias politicas  -->
-        <div class="mb-8">
-            <h2 class="text-2xl font-bold">REVISTA ARGENTINA DE CIENCIAS POLÍTICAS
-</h2>
-            <p class="mt-2 text-gray-700">
 
-            <li> Director: Rodolfo Rivarola</li> 
-            <li> Revista editada entre: 1910- 1926</li> 
-            <li> Breve reseña:</li>
-La revista  analiza diversas temáticas en relación al Derecho, la administración pública, economía política, sociología, historia y educación. Es una publicación científica que tiene el objetivo de sintetizar reflexiones sobre aspectos relevantes de la ciencia y la sociedad hacia 1910. El autor propone un estudio basado en la observación científica de hechos que puedan servir para la formación de la conciencia nacional.  Se expone la necesidad de una nueva política fundada en saberes científicos y ejercida por un gobierno competente, en este sentido analiza la formación de los gobernantes por parte de las instituciones de aquel momento.
+        <!-- Revista de Derecho, Historia y Letras -->
+        <div class="revista">
+            <div class="w-1/2 text-left pr-4">
+                <h2 class="text-2xl font-bold text-purple-700">REVISTA DE DERECHO, HISTORIA Y LETRAS</h2>
+                <p class="mt-2 text-gray-700">
+                    <ul class="list-disc pl-4">
+                        <li><strong>Director:</strong> Estanislao S. Zeballos.</li>
+                        <li><strong>Revista editada entre:</strong> 1898-1923.</li>
+                        <li><strong>Breve reseña:</strong> Revista especializada en los campos de Historia, Derecho y Literatura, dirigida a un público intelectual. En torno al Centenario, muestra interés por recuperar la identidad nacional y resaltar la impronta fuertemente revolucionaria y hasta separatista que circulaba en escritos entorno a 1810.</li>
+                    </ul>
+                </p>
+            </div>
 
-            </p>
-            <!-- Galería de imágenes -->
-            <div class="mt-4 grid grid-cols-3 gap-4">
-           
-                <img src="~/images/cara_rev_cs_pol.jpg" class="w-full h-auto border-2 border-gray-300 rounded">
+            <div class="w-1/2 flex justify-evenly">
+                <div class="card w-64 bg-purple-100 shadow-md">
+                    <img src="~/images/tapa_revista_inst.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                </div>
+                <div class="card w-64 bg-purple-100 shadow-md">
+                    <img src="~/images/contra_rev_inst.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                </div>
             </div>
         </div>
-          <!-- Revista Atlántida argentina  -->
-        <div class="mb-8">
-            <h2 class="text-2xl font-bold">REVISTA ATLÁNTIDA 
-</h2>
-            <p class="mt-2 text-gray-700">
 
-            <li> Director: David Peña.</li> 
-            <li> Revista editada entre: 1911- 1913</li> 
-            <li> Breve reseña:</li>
-La revista participa del debate ideológico y cultural en el que estaba imbuida la Argentina. Contribuyó al movimiento intelectual de la época con publicaciones de referentes como J. Figueroa Alcorta, Roque Saenz Peña, Luis Agote, Vicente Fidel López y Domingo Sarmiento, entre otros. El  director David Peña, tenía un propósito americanista, buscando unir el “alma de América”. Sin embargo, estaban preocupados por lo nacional y la búsqueda de una identidad, en un marco histórico signado por el Centenario de Mayo y la nueva ley electoral de 1912. Se expone en ella la búsqueda de elevar el conocimiento y el saber. Y con su difusión, incidió en el ámbito cultural y científico de la época. 
-            </p>
-            <!-- Galería de imágenes -->
-            <div class="mt-4 grid grid-cols-3 gap-4">
-       
-                <img src="~/images/tapa_real.jpg" class="w-64 h-auto mx-auto">
-            
-                <img src="~/images/contratapa.jpg" class="w-64 h-auto mx-auto">
-            
+        <!-- Revista Argentina de Ciencias Políticas -->
+        <div class="revista">
+            <div class="w-1/2 text-left pr-4">
+                <h2 class="text-2xl font-bold text-green-700">REVISTA ARGENTINA DE CIENCIAS POLÍTICAS</h2>
+                <p class="mt-2 text-gray-700">
+                    <ul class="list-disc pl-4">
+                        <li><strong>Director:</strong> Rodolfo Rivarola.</li>
+                        <li><strong>Revista editada entre:</strong> 1910-1926.</li>
+                        <li><strong>Breve reseña:</strong> La revista  analiza diversas temáticas en relación al Derecho, la administración pública, economía política, sociología, historia y educación. Es una publicación científica que tiene el objetivo de sintetizar reflexiones sobre aspectos relevantes de la ciencia y la sociedad hacia 1910. El autor propone un estudio basado en la observación científica de hechos que puedan servir para la formación de la conciencia nacional.  Se expone la necesidad de una nueva política fundada en saberes científicos y ejercida por un gobierno competente, en este sentido analiza la formación de los gobernantes por parte de las instituciones de aquel momento.
+</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="w-1/2 flex justify-evenly">
+                <div class="card w-64 bg-green-100 shadow-md">
+                    <img src="~/images/cara_rev_cs_pol.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                </div>
+            </div>
+        </div>
+
+        <!-- Revista Atlántida -->
+        <div class="revista">
+            <div class="w-1/2 text-left pr-4">
+                <h2 class="text-2xl font-bold text-red-700">REVISTA ATLÁNTIDA</h2>
+                <p class="mt-2 text-gray-700">
+                    <ul class="list-disc pl-4">
+                        <li><strong>Director:</strong> David Peña.</li>
+                        <li><strong>Revista editada entre:</strong> 1911-1913.</li>
+                        <li><strong>Breve reseña:</strong> La revista participa del debate ideológico y cultural en el que estaba imbuida la Argentina. Contribuyó al movimiento intelectual de la época con publicaciones de referentes como J. Figueroa Alcorta, Roque Saenz Peña, Luis Agote, Vicente Fidel López y Domingo Sarmiento, entre otros. El  director David Peña, tenía un propósito americanista, buscando unir el “alma de América”. Sin embargo, estaban preocupados por lo nacional y la búsqueda de una identidad, en un marco histórico signado por el Centenario de Mayo y la nueva ley electoral de 1912. Se expone en ella la búsqueda de elevar el conocimiento y el saber. Y con su difusión, incidió en el ámbito cultural y científico de la época. </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="w-1/2 flex justify-evenly">
+                <div class="card w-64 bg-red-100 shadow-md">
+                    <img src="~/images/tapa_real.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                </div>
+                <div class="card w-64 bg-red-100 shadow-md">
+                    <img src="~/images/contratapa.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                </div>
             </div>
         </div>
     </div>
