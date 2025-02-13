@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EmpresasCulturales/1.0.0": {
+        "runtime": {
+          "EmpresasCulturales.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmpresasCulturales/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
