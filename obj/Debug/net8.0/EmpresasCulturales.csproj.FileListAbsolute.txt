@@ -31,3 +31,10 @@ C:\Users\sidun\EmpresasCulturales\obj\Debug\net8.0\EmpresasCulturales.pdb
 C:\Users\sidun\EmpresasCulturales\obj\Debug\net8.0\EmpresasCulturales.genruntimeconfig.cache
 C:\Users\sidun\EmpresasCulturales\obj\Debug\net8.0\ref\EmpresasCulturales.dll
 C:\Users\sidun\EmpresasCulturales\obj\Debug\net8.0\EmpresasCulturales.sourcelink.json
+C:\Users\sidun\EmpresasCulturales\bin\Debug\net8.0\out\web.config
+C:\Users\sidun\EmpresasCulturales\bin\Debug\net8.0\out\appsettings.Development.json
+C:\Users\sidun\EmpresasCulturales\bin\Debug\net8.0\out\appsettings.json
+C:\Users\sidun\EmpresasCulturales\bin\Debug\net8.0\out\EmpresasCulturales.deps.json
+C:\Users\sidun\EmpresasCulturales\bin\Debug\net8.0\out\EmpresasCulturales.runtimeconfig.json
+C:\Users\sidun\EmpresasCulturales\bin\Debug\net8.0\out\package-lock.json
+C:\Users\sidun\EmpresasCulturales\bin\Debug\net8.0\out\package.json
