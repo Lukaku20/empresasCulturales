@@ -1,0 +1,1 @@
+web: dotnet EmpresasCulturales.dll --server.urls http://*:$PORT

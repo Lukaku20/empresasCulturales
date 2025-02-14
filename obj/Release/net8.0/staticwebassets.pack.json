@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EmpresasCulturales.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\sidun\\EmpresasCulturales\\wwwroot\\_redirects",
+      "PackagePath": "staticwebassets"
+    },
+    {
       "Id": "C:\\Users\\sidun\\EmpresasCulturales\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B7nU8pJy5ThImFG2GjEMVW+FLuEMNROWSNrlhRQ1EQo=",
+  "Hash": "Km8I7qeBWeJ8jhfzsYccYZdLwRzyroYSpfGez7WcpYQ=",
   "Source": "EmpresasCulturales",
   "BasePath": "_content/EmpresasCulturales",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sidun\\EmpresasCulturales\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\EmpresasCulturales.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\sidun\\EmpresasCulturales\\wwwroot\\_redirects",
+      "SourceId": "EmpresasCulturales",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sidun\\EmpresasCulturales\\wwwroot\\",
+      "BasePath": "_content/EmpresasCulturales",
+      "RelativePath": "_redirects",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_redirects"
     },
     {
       "Identity": "C:\\Users\\sidun\\EmpresasCulturales\\wwwroot\\css\\site.css",
